@@ -35,7 +35,7 @@
     firstView.backgroundColor = [UIColor grayColor];
     
     //父子关系
-    [firstView addSubview:titleLabel];
+    [firstView addSubview:titleLabel];  
     [firstView addSubview:contentLabel];
     [firstView addSubview:button];
     

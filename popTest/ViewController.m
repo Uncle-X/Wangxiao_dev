@@ -26,9 +26,7 @@
 //弹窗属性
 @property (nonatomic, strong)UIView *bgView;
 @property (nonatomic, strong) HWCommonAlertView * firstView;
-//@property (nonatomic, strong) UILabel * titleLabel;
-//@property (nonatomic, strong) UILabel * detailLabel;
-//@property (nonatomic, strong) UIButton * button;
+
 
 @property (nonatomic, copy) NSString * contentString;
 @property (nonatomic, strong) UIButton * currentSelectedBtn;
@@ -126,8 +124,6 @@
     
 }
 
-
-
 - (void)startAnimation{
     
     [self.bgView pop_addAnimation:self.anim forKey:@"fade"];
@@ -138,14 +134,6 @@
     [self.bgView pop_addAnimation:self.animOut forKey:@"fadeOut"];
     [self.firstView pop_addAnimation:self.popOut forKey:@"popOut"];
 }
-
-
-
-
-
-
-
-
 
 
 - (void)configTestBtnUI{
