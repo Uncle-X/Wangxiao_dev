@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2914513A200B5E8F004F862D /* CommenAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29145139200B5E8F004F862D /* CommenAlertView.m */; };
 		29BBB430200745E700DE04E5 /* HWCommonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBB42F200745E700DE04E5 /* HWCommonAlertView.m */; };
 		307375B41FF4036600FE2532 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 307375B31FF4036600FE2532 /* AppDelegate.m */; };
 		307375B71FF4036600FE2532 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307375B61FF4036600FE2532 /* ViewController.m */; };
@@ -38,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		16D207DDB2B26F1567980926 /* libPods-popTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-popTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29145138200B5E8F004F862D /* CommenAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommenAlertView.h; sourceTree = "<group>"; };
+		29145139200B5E8F004F862D /* CommenAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommenAlertView.m; sourceTree = "<group>"; };
 		29BBB42E200745E700DE04E5 /* HWCommonAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWCommonAlertView.h; sourceTree = "<group>"; };
 		29BBB42F200745E700DE04E5 /* HWCommonAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWCommonAlertView.m; sourceTree = "<group>"; };
 		307375AF1FF4036600FE2532 /* popTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +127,8 @@
 				307375B31FF4036600FE2532 /* AppDelegate.m */,
 				307375B51FF4036600FE2532 /* ViewController.h */,
 				307375B61FF4036600FE2532 /* ViewController.m */,
+				29145138200B5E8F004F862D /* CommenAlertView.h */,
+				29145139200B5E8F004F862D /* CommenAlertView.m */,
 				29BBB42E200745E700DE04E5 /* HWCommonAlertView.h */,
 				29BBB42F200745E700DE04E5 /* HWCommonAlertView.m */,
 				307375B81FF4036600FE2532 /* Main.storyboard */,
@@ -345,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2914513A200B5E8F004F862D /* CommenAlertView.m in Sources */,
 				307375B71FF4036600FE2532 /* ViewController.m in Sources */,
 				29BBB430200745E700DE04E5 /* HWCommonAlertView.m in Sources */,
 				307375C21FF4036600FE2532 /* main.m in Sources */,
