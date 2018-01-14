@@ -13,6 +13,7 @@
 #import <SVProgressHUD/SVProgressHUD.h>
 
 #import "HWCommonAlertView.h"
+#import "CommenAlertView.h"
 
 @interface ViewController ()
 
@@ -31,6 +32,9 @@
 @property (nonatomic, copy) NSString * contentString;
 @property (nonatomic, strong) UIButton * currentSelectedBtn;
 
+@property (nonatomic, strong)CommenAlertView *commenAlertView;
+
+
 @end
 
 @implementation ViewController
@@ -38,10 +42,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self startBtn];
     [self configPopAnimation];
+//    [self configUI];
+    [self configUI2];
     
-    [self configUI];
     
+   
+}
+
+- (void)startBtn{
+    self.view.backgroundColor = [UIColor purpleColor];
     UIButton *startBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     startBtn.frame = CGRectMake(0, 0, 100, 100);
     startBtn.backgroundColor = [UIColor greenColor];
@@ -96,6 +107,15 @@
     };
     
    
+}
+
+- (void)configUI2{
+    
+    self.commenAlertView = [[CommenAlertView alloc]initWithFrame:CGRectMake(40, 200, self.view.frame.size.width -80, 300)];
+    self.commenAlertView.titleLable.text = @"月卡购买成功";
+    self.commenAlertView.contentLable.text = @"撒不回家和客户看花开很快很快就看会好黑jfajfkdaj交罚款垃圾袋卡卡借加法搭建咖啡机地方撒123...adfaas";
+    [self.commenAlertView.confirmBtn.titleLabel setText:@"确定"];
+    [self.view addSubview:self.commenAlertView];
 }
 
 - (void)configUI{
