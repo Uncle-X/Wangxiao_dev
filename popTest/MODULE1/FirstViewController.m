@@ -13,7 +13,6 @@
 @property (nonatomic, strong)UITableView *tableView;
 @property (nonatomic, strong)NSMutableArray *dataArry;
 
-
 @end
 
 @implementation FirstViewController

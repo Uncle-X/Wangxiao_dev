@@ -64,23 +64,23 @@
     
     [btn1 setTitle:@"btn1" forState:UIControlStateNormal];
     [btn1 setTitle:@"btn1selected" forState:UIControlStateSelected];
-    [btn2 setTitle:@"btn2" forState:UIControlStateNormal];
-    [btn2 setTitle:@"btn2selected" forState:UIControlStateSelected];
     [btn1 addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     
+    [btn2 setTitle:@"btn2" forState:UIControlStateNormal];
+    [btn2 setTitle:@"btn2selected" forState:UIControlStateSelected];
     [btn2 addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     
     [btn3 setTitle:@"btn3" forState:UIControlStateNormal];
     [btn3 setTitle:@"btn3selected" forState:UIControlStateSelected];
-    [btn4 setTitle:@"btn4" forState:UIControlStateNormal];
-    [btn4 setTitle:@"btn4selected" forState:UIControlStateSelected];
     [btn3 addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     
+    [btn4 setTitle:@"btn4" forState:UIControlStateNormal];
+    [btn4 setTitle:@"btn4selected" forState:UIControlStateSelected];
     [btn4 addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
     
 }
 
-
+#pragma mark - buttonAction
 - (void)btnClick:(UIButton *)button{
     button.selected = !button.selected;
     

@@ -31,6 +31,7 @@
 
 @implementation AlertCommonViewController
 
+#pragma mark - lifeCycle
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -39,6 +40,7 @@
     [self configUI];
 }
 
+#pragma mark - configUI
 - (void)startBtn{
     self.view.backgroundColor = [UIColor purpleColor];
     UIButton *startBtn = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -49,6 +51,31 @@
     startBtn.titleLabel.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:startBtn];
     [startBtn addTarget:self action:@selector(startAnimation) forControlEvents:UIControlEventTouchUpInside];
+}
+
+
+- (void)configUI{
+    
+    self.commenAlertView = [[CommenAlertView alloc]init];
+    self.commenAlertView.layer.cornerRadius = 5.0;
+    self.commenAlertView.backgroundColor = [UIColor whiteColor];
+    
+    
+    self.commenAlertView.titleLable.text = @"标题居中";
+    self.commenAlertView.titleLable.textAlignment = NSTextAlignmentCenter;
+    self.commenAlertView.tintColor = [UIColor blackColor];
+    
+    self.commenAlertView.contentLable.text = @"1.文字居中\n\r2.lable高度随文字多少高度自动伸缩\n\r3.通过约束控制,未使用计算高度\n\r4.依赖masonry\n\r5.动画效果通过pop框架实现";
+    self.commenAlertView.contentLable.font = [UIFont systemFontOfSize:12.0f];
+    self.commenAlertView.contentLable.textAlignment = NSTextAlignmentCenter;
+    self.commenAlertView.contentLable.numberOfLines = 0;
+    
+    self.commenAlertView.lineView.backgroundColor = [UIColor grayColor];
+    [self.commenAlertView.confirmBtn setTitle:@"确定" forState:UIControlStateNormal];
+    [self.commenAlertView.confirmBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [self.commenAlertView.confirmBtn addTarget:self action:@selector(popOutView) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:self.commenAlertView];
 }
 
 - (void)configPopAnimation{
@@ -93,34 +120,9 @@
         NSLog(@"----移除fadeOut动画");
     };
     
-    
 }
 
-- (void)configUI{
-    
-    self.commenAlertView = [[CommenAlertView alloc]init];
-    self.commenAlertView.layer.cornerRadius = 5.0;
-    self.commenAlertView.backgroundColor = [UIColor whiteColor];
-    
-    
-    self.commenAlertView.titleLable.text = @"标题居中";
-    self.commenAlertView.titleLable.textAlignment = NSTextAlignmentCenter;
-    self.commenAlertView.tintColor = [UIColor blackColor];
-    
-    self.commenAlertView.contentLable.text = @"1.文字居中\n\r2.lable高度随文字多少高度自动伸缩\n\r3.通过约束控制,未使用计算高度\n\r4.依赖masonry\n\r5.动画效果通过pop框架实现";
-    self.commenAlertView.contentLable.font = [UIFont systemFontOfSize:12.0f];
-    self.commenAlertView.contentLable.textAlignment = NSTextAlignmentCenter;
-    self.commenAlertView.contentLable.numberOfLines = 0;
-    
-    self.commenAlertView.lineView.backgroundColor = [UIColor grayColor];
-    [self.commenAlertView.confirmBtn setTitle:@"确定" forState:UIControlStateNormal];
-    [self.commenAlertView.confirmBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [self.commenAlertView.confirmBtn addTarget:self action:@selector(popOutView) forControlEvents:UIControlEventTouchUpInside];
-    
-    [self.view addSubview:self.commenAlertView];
-}
-
-
+#pragma mark - buttonAction
 - (void)startAnimation{
     
     [self.bgView pop_addAnimation:self.anim forKey:@"fade"];
