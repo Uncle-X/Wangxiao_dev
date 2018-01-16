@@ -44,9 +44,9 @@
 - (void)startBtn{
     self.view.backgroundColor = [UIColor purpleColor];
     UIButton *startBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    startBtn.frame = CGRectMake(0, 64, 100, 50);
+    startBtn.frame = CGRectMake(10, 84, 100, 50);
     startBtn.backgroundColor = [UIColor greenColor];
-    [startBtn.titleLabel setText:@"开始"];
+    [startBtn setTitle:@"开始" forState:UIControlStateNormal];
     [startBtn.titleLabel setTextColor:[UIColor blackColor]];
     startBtn.titleLabel.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:startBtn];

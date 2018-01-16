@@ -130,10 +130,10 @@
 			children = (
 				29CA7AFB200E042A00A14062 /* FirstViewController.h */,
 				29CA7AFE200E042A00A14062 /* FirstViewController.m */,
-				29CA7AFA200E042A00A14062 /* CommenAlertView.h */,
-				29CA7AFD200E042A00A14062 /* CommenAlertView.m */,
 				29CA7B1F200E0BB900A14062 /* AlertCommonViewController.h */,
 				29CA7B20200E0BB900A14062 /* AlertCommonViewController.m */,
+				29CA7AFA200E042A00A14062 /* CommenAlertView.h */,
+				29CA7AFD200E042A00A14062 /* CommenAlertView.m */,
 				29CA7B1C200E0B8600A14062 /* ButtonSelectedChangeController.h */,
 				29CA7B1D200E0B8600A14062 /* ButtonSelectedChangeController.m */,
 			);
@@ -210,13 +210,13 @@
 		307375B11FF4036600FE2532 /* popTest */ = {
 			isa = PBXGroup;
 			children = (
+				29CA7B03200E042A00A14062 /* ProjectDelegate */,
 				29CA7AF8200E042A00A14062 /* Info.plist */,
 				29CA7B06200E042A00A14062 /* BaseController */,
 				29CA7AF9200E042A00A14062 /* MODULE1 */,
 				29CA7B07200E042A00A14062 /* MODULE2 */,
 				29CA7B00200E042A00A14062 /* MODULE3 */,
 				29CA7AF6200E042A00A14062 /* Other */,
-				29CA7B03200E042A00A14062 /* ProjectDelegate */,
 				29CA7B0A200E042A00A14062 /* RootController */,
 			);
 			path = popTest;
