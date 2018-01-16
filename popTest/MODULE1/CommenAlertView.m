@@ -11,9 +11,6 @@
 #import <pop/POP.h>
 @interface CommenAlertView()
 
-
-
-
 @end
 @implementation CommenAlertView
 
@@ -35,12 +32,13 @@
 - (void)layoutSubviews{
     [super layoutSubviews];
     //调试颜色
-    self.backgroundColor = [UIColor whiteColor];
-    self.titleLable.backgroundColor = [UIColor greenColor];
-    self.contentLable.backgroundColor = [UIColor redColor];
-    self.lineView.backgroundColor = [UIColor blackColor];
-    self.confirmBtn.backgroundColor = [UIColor yellowColor];
+//    self.backgroundColor = [UIColor whiteColor];
+//    self.titleLable.backgroundColor = [UIColor greenColor];
+//    self.contentLable.backgroundColor = [UIColor redColor];
+//    self.lineView.backgroundColor = [UIColor blackColor];
+//    self.confirmBtn.backgroundColor = [UIColor yellowColor];
     
+        
     //约束
     [self.titleLable mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.left.right.mas_equalTo(self.titleLable.superview);
@@ -51,18 +49,26 @@
         make.top.mas_equalTo(self.titleLable.mas_bottom).mas_offset(0);
         make.left.mas_equalTo(self.mas_left).offset(30);
         make.right.mas_equalTo(self.mas_right).offset(-30);
+        make.bottom.mas_equalTo(self.lineView.mas_top).mas_offset(-40);
     }];
     
     [self.lineView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.mas_equalTo(self.contentLable.mas_bottom).mas_offset(40);
         make.left.right.mas_equalTo(self.contentLable);
         make.height.mas_equalTo(1);
+        make.bottom.mas_equalTo(self.confirmBtn.mas_top).mas_offset(0);
+
     }];
     
     [self.confirmBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.mas_equalTo(self.lineView.mas_bottom);
         make.left.right.mas_equalTo(self);
         make.bottom.mas_equalTo(self.mas_bottom);
+    }];
+    
+    //总view设置位置和宽(不用设置高)
+    [self mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.width.mas_equalTo(250);
+        make.centerX.mas_equalTo(self.superview.mas_centerX);
+        make.centerY.mas_equalTo(self.superview.mas_centerY);
     }];
     
     

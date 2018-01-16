@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+//#import "ViewController.h"
+#import "WXTabbarController.h"
 
 @interface AppDelegate ()
 
@@ -18,7 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    ViewController *rootVc = [[ViewController alloc]init];
+    WXTabbarController *rootVc = [[WXTabbarController alloc]init];
     self.window.rootViewController = rootVc;
     [self.window makeKeyAndVisible];
     
