@@ -7,7 +7,12 @@
 //
 
 #import "AppDelegate.h"
+<<<<<<< HEAD:popTest/AppDelegate.m
 #import "ViewController.h"
+=======
+//#import "ViewController.h"
+#import "WXTabbarController.h"
+>>>>>>> 0d11ac01ee48c98ac9d32c2e7a9d4d0592379664:popTest/ProjectDelegate/AppDelegate.m
 
 @interface AppDelegate ()
 
@@ -18,7 +23,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+<<<<<<< HEAD:popTest/AppDelegate.m
     ViewController *rootVc = [[ViewController alloc]init];
+=======
+    WXTabbarController *rootVc = [[WXTabbarController alloc]init];
+>>>>>>> 0d11ac01ee48c98ac9d32c2e7a9d4d0592379664:popTest/ProjectDelegate/AppDelegate.m
     self.window.rootViewController = rootVc;
     [self.window makeKeyAndVisible];
     

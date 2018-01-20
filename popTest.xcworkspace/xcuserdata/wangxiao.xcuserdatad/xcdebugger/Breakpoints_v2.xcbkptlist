@@ -25,7 +25,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "104"
             endingLineNumber = "104"
-            landmarkName = "-viewDidLoad"
+            landmarkName = "-configPopAnimation"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -41,7 +41,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "193"
             endingLineNumber = "193"
-            landmarkName = "-btnClick:"
+            landmarkName = "-configTestBtnUI"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
