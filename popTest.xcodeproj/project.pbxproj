@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		2914513A200B5E8F004F862D /* CommenAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29145139200B5E8F004F862D /* CommenAlertView.m */; };
 		29BBB430200745E700DE04E5 /* HWCommonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BBB42F200745E700DE04E5 /* HWCommonAlertView.m */; };
 		307375B41FF4036600FE2532 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 307375B31FF4036600FE2532 /* AppDelegate.m */; };
 		307375B71FF4036600FE2532 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 307375B61FF4036600FE2532 /* ViewController.m */; };
-=======
 		29CA7B0F200E042B00A14062 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CA7AF7200E042A00A14062 /* main.m */; };
 		29CA7B10200E042B00A14062 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 29CA7AF8200E042A00A14062 /* Info.plist */; };
 		29CA7B12200E042B00A14062 /* CommenAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CA7AFD200E042A00A14062 /* CommenAlertView.m */; };
@@ -24,7 +22,6 @@
 		29CA7B18200E042B00A14062 /* WXNAVigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CA7B0C200E042A00A14062 /* WXNAVigationController.m */; };
 		29CA7B1E200E0B8600A14062 /* ButtonSelectedChangeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CA7B1D200E0B8600A14062 /* ButtonSelectedChangeController.m */; };
 		29CA7B21200E0BB900A14062 /* AlertCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CA7B20200E0BB900A14062 /* AlertCommonViewController.m */; };
->>>>>>> 0d11ac01ee48c98ac9d32c2e7a9d4d0592379664
 		307375BA1FF4036600FE2532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307375B81FF4036600FE2532 /* Main.storyboard */; };
 		307375BC1FF4036600FE2532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307375BB1FF4036600FE2532 /* Assets.xcassets */; };
 		307375BF1FF4036600FE2532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307375BD1FF4036600FE2532 /* LaunchScreen.storyboard */; };
@@ -52,12 +49,10 @@
 
 /* Begin PBXFileReference section */
 		16D207DDB2B26F1567980926 /* libPods-popTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-popTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-<<<<<<< HEAD
 		29145138200B5E8F004F862D /* CommenAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommenAlertView.h; sourceTree = "<group>"; };
 		29145139200B5E8F004F862D /* CommenAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommenAlertView.m; sourceTree = "<group>"; };
 		29BBB42E200745E700DE04E5 /* HWCommonAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWCommonAlertView.h; sourceTree = "<group>"; };
 		29BBB42F200745E700DE04E5 /* HWCommonAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWCommonAlertView.m; sourceTree = "<group>"; };
-=======
 		29CA7AF7200E042A00A14062 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29CA7AF8200E042A00A14062 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29CA7AFA200E042A00A14062 /* CommenAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommenAlertView.h; sourceTree = "<group>"; };
@@ -78,7 +73,6 @@
 		29CA7B1D200E0B8600A14062 /* ButtonSelectedChangeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonSelectedChangeController.m; sourceTree = "<group>"; };
 		29CA7B1F200E0BB900A14062 /* AlertCommonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertCommonViewController.h; sourceTree = "<group>"; };
 		29CA7B20200E0BB900A14062 /* AlertCommonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertCommonViewController.m; sourceTree = "<group>"; };
->>>>>>> 0d11ac01ee48c98ac9d32c2e7a9d4d0592379664
 		307375AF1FF4036600FE2532 /* popTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		307375B91FF4036600FE2532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		307375BB1FF4036600FE2532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -224,7 +218,6 @@
 		307375B11FF4036600FE2532 /* popTest */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				307375B21FF4036600FE2532 /* AppDelegate.h */,
 				307375B31FF4036600FE2532 /* AppDelegate.m */,
 				307375B51FF4036600FE2532 /* ViewController.h */,
@@ -238,7 +231,6 @@
 				307375BD1FF4036600FE2532 /* LaunchScreen.storyboard */,
 				307375C01FF4036600FE2532 /* Info.plist */,
 				307375C11FF4036600FE2532 /* main.m */,
-=======
 				29CA7B03200E042A00A14062 /* ProjectDelegate */,
 				29CA7AF8200E042A00A14062 /* Info.plist */,
 				29CA7B06200E042A00A14062 /* BaseController */,
@@ -247,7 +239,6 @@
 				29CA7B00200E042A00A14062 /* MODULE3 */,
 				29CA7AF6200E042A00A14062 /* Other */,
 				29CA7B0A200E042A00A14062 /* RootController */,
->>>>>>> 0d11ac01ee48c98ac9d32c2e7a9d4d0592379664
 			);
 			path = popTest;
 			sourceTree = "<group>";
@@ -463,13 +454,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				2914513A200B5E8F004F862D /* CommenAlertView.m in Sources */,
 				307375B71FF4036600FE2532 /* ViewController.m in Sources */,
 				29BBB430200745E700DE04E5 /* HWCommonAlertView.m in Sources */,
 				307375C21FF4036600FE2532 /* main.m in Sources */,
 				307375B41FF4036600FE2532 /* AppDelegate.m in Sources */,
-=======
 				29CA7B1E200E0B8600A14062 /* ButtonSelectedChangeController.m in Sources */,
 				29CA7B14200E042B00A14062 /* ThirdViewController.m in Sources */,
 				29CA7B15200E042B00A14062 /* AppDelegate.m in Sources */,
@@ -480,7 +469,6 @@
 				29CA7B18200E042B00A14062 /* WXNAVigationController.m in Sources */,
 				29CA7B17200E042B00A14062 /* WXTabbarController.m in Sources */,
 				29CA7B13200E042B00A14062 /* FirstViewController.m in Sources */,
->>>>>>> 0d11ac01ee48c98ac9d32c2e7a9d4d0592379664
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
